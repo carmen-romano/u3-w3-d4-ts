@@ -1,0 +1,13 @@
+.card-paper {
+  text-align: center;
+}
+.card-paper span {
+  font-style: italic;
+}
+
+.img-card-paper {
+  height: 27vw;
+}
+svg {
+  width: 25px;
+}
