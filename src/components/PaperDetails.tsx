@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import Card from "react-bootstrap/Card";
 import { useParams } from "react-router-dom";
 import { Col, Container, Row, Spinner } from "react-bootstrap";
-import { PaperDetail } from "./interfaces/IPaperDetail";
 import DataFormatted from "./DataFormatted";
+import { Result } from "./interfaces/IPaper";
 
 const PaperDetails = () => {
-  const [paper, setPaper] = useState<PaperDetail | null>(null);
+  const [paper, setPaper] = useState<Result | null>(null);
   const [isLoading, setIsLoading]= useState(true) 
   type params = {
     id: string;
